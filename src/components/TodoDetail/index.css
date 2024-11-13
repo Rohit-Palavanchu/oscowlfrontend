@@ -1,0 +1,97 @@
+.form-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    max-height: 450px;
+}
+
+.create-todo-form {
+    max-width: 600px;
+    width: 100%;
+    background: #f9fbe7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.create-todo-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fbc02d;
+}
+
+.create-todo-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f57f17;
+}
+
+.create-todo-form input,
+.create-todo-form textarea,
+.create-todo-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.create-todo-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fbc02d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-todo-form button:hover {
+    background-color: #f9a825;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save-btn, .cancel-btn, .edit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #388e3c;
+}
+
+.save-btn:hover {
+    background-color: #2c6d2a;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+
+.edit-btn {
+    background-color: #fbc02d;
+    width: 100%;
+}
+
+.edit-btn:hover {
+    background-color: #f9a825;
+}
